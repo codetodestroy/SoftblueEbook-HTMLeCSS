@@ -1,0 +1,121 @@
+@font-face {
+	font-family: Century Gothic;
+	src: url('/fonts/GOTHIC.ttf');
+}
+
+@font-face {
+	font-family: Century Gothic;
+	src: url('/fonts/GOTHICB.ttf');
+	font-weight: bold;
+}
+
+body {
+	background-color: #26C4F3;
+	font-family: Century Gothic;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+h1 {
+	font-size: 18pt;
+	color: #26C4F3;
+	margin: 20px;
+}
+
+p {
+	margin: 20px;
+}
+
+a:link {
+	color: #26C4F3;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FF0000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* MAIN CONTAINER */
+div.container {
+	width: 610px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+	width: 610px;
+	background-color: #FFFFFF;
+	float: left;
+	border-radius: 15px;
+}
+
+.logo {
+	float: left;
+	margin: 10px;
+}
+
+.menu {
+	float: left;
+	margin: 54px 0 0 26px;
+}
+
+.menu li {
+	margin-right: 15px;
+}
+
+/* MAIN CONTENT */
+
+main section {
+	width: 400px;
+	height: 400px;
+	background-color: #FFFFFF;
+	float: left;
+	margin: 10px 10px 0 0;
+	border-radius: 10px 40px 10px 40px; 
+}
+
+main section figure {
+	text-align: center;
+}
+
+main section figure figcaption {
+	font-size: 10pt;
+}
+
+/* ASIDE */
+
+aside {
+	width: 200px;
+	height: 400px;
+	background-color: #FFFFFF;
+	float: left;
+	margin: 10px 0;
+	border-radius: 10px 40px 10px 40px;
+}
+
+aside ul li {
+	color: #26C4F3;
+	margin: 15px;
+	font-size: 12pt;
+}
+
+/* FOOTER */
+footer {
+	width: 610px;
+	background-color: #FFFFFF;
+	float: left;
+	border-radius: 15px;
+	text-align: center;
+}
